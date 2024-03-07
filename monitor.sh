@@ -13,7 +13,7 @@ PID=$!
 OUTPUT_FILE="resource_usage.txt"
 
 # Write header to file
-echo "Timestamp,CPU Usage (%),Total Memory Usage (GB)" > $OUTPUT_FILE
+echo "Timestamp, CPU Usage (%), Total Memory Usage (GB)" > $OUTPUT_FILE
 
 # Function to get memory usage in GB
 get_mem_usage() {
